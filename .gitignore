@@ -1,0 +1,13 @@
+# Bỏ thư mục build và binary
+bin/
+*.exe
+*.out
+
+# Thư viện Go
+vendor/
+
+# Editor & hệ điều hành
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

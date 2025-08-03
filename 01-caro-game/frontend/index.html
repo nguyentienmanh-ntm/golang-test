@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Caro Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Caro Game</h1>
+
+      <!-- Game Mode Selection -->
+      <div id="mode-selection" class="mode-selection">
+        <h2>Chọn chế độ chơi</h2>
+        <div class="mode-buttons">
+          <button id="two-player-btn" class="mode-btn">Chơi 2 người</button>
+          <button id="vs-computer-btn" class="mode-btn">Chơi với máy</button>
+        </div>
+      </div>
+
+      <!-- Game Interface -->
+      <div id="game-interface" class="game-interface" style="display: none">
+        <div class="game-info">
+          <div id="status">Đang kết nối...</div>
+          <div id="current-player">
+            Lượt chơi: <span id="player-symbol">-</span>
+          </div>
+          <div id="game-mode-info"></div>
+        </div>
+        <div class="controls">
+          <button id="reset-btn">Chơi lại</button>
+          <button id="back-to-menu-btn">Về menu</button>
+        </div>
+        <div id="board"></div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

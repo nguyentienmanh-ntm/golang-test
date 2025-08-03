@@ -1,0 +1,14 @@
+# .gitignore
+
+# Go build output
+bin/
+*.exe
+*.out
+
+# IDE/editor
+.vscode/
+.idea/
+
+# OS junk
+.DS_Store
+Thumbs.db
