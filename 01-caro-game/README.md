@@ -1,7 +1,5 @@
 # Game Caro - 15x15
 
-
-
 Một game caro hoàn chỉnh được xây dựng bằng Go (backend) và HTML/CSS/JavaScript (frontend) với WebSocket để giao tiếp real-time.
 
 ## Tính năng
@@ -45,7 +43,6 @@ Một game caro hoàn chỉnh được xây dựng bằng Go (backend) và HTML/
 - Nút "Chơi lại" để reset game
 - Nút "Về menu" để quay lại chọn chế độ
 
-
 ## Cách chạy
 
 ### Yêu cầu
@@ -56,10 +53,9 @@ Một game caro hoàn chỉnh được xây dựng bằng Go (backend) và HTML/
 ### Bước 1: Chạy server
 
 ```bash
-cd backend
-go run main.go
+cd 01-caro-game
+go run backend/main.go (phải chạy đúng như này)
 ```
-
 Server sẽ chạy tại `http://localhost:8080`
 
 ### Bước 2: Mở game
